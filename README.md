@@ -14,6 +14,6 @@ This is an example shared library which is going to be injected into "injectme.e
 ## xstart64
 Start a Windows 64-bit programme in the background and inject a 64-bit DLL into the programme at the same time, just like what "LD_PRELOAD" does on Linux. (Support x64 platform only.)
 
-Useage: xstart64.exe <EXE_PATH> <DLL_PATH>
+Usage: xstart64.exe <EXE_PATH> <DLL_PATH>
 
 So, try to execute "xstart64.exe injectme.exe spy.dll" and check "spy1.log" to see what happened. Enjoy!
